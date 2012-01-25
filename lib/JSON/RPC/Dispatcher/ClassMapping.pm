@@ -10,7 +10,8 @@ use namespace::autoclean;
 
 # XXX: Hack to relax "method" constraint of J::R::D::P so that it accepts "."
 {
-package JSON::RPC::Dispatcher::Procedure;
+package
+    JSON::RPC::Dispatcher::Procedure; # hide from PAUSE/indexers
 use Moose;
 
 __PACKAGE__->meta->make_mutable;

@@ -66,8 +66,7 @@ __END__
 
 =head1 NAME
 
-JSON::RPC::Dispatcher::ClassMapping - A wrapper to expose all public
-methods of classes as RPC methods
+JSON::RPC::Dispatcher::ClassMapping - Expose all public methods of classes as RPC methods
 
 =head1 SYNOPSIS
 
@@ -115,7 +114,7 @@ JSON::RPC::Dispatcher::ClassMapping will load them for you.
 
 Sherwin Daganato E<lt>sherwin@daganato.comE<gt>
 
-Based on code originally developed by Max Kanat-Alexander.
+Based on the dispatcher of L<RPC::Any::Server>  by Max Kanat-Alexander.
 
 =head1 LICENSE
 

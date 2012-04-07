@@ -1,6 +1,6 @@
 NAME
-    JSON::RPC::Dispatcher::ClassMapping - A wrapper to expose all public
-    methods of classes as RPC methods
+    JSON::RPC::Dispatcher::ClassMapping - Expose all public methods of
+    classes as RPC methods
 
 SYNOPSIS
       # in app.psgi
@@ -40,7 +40,7 @@ ATTRIBUTES
 AUTHOR
     Sherwin Daganato <sherwin@daganato.com>
 
-    Based on code originally developed by Max Kanat-Alexander.
+    Based on the dispatcher of RPC::Any::Server by Max Kanat-Alexander.
 
 LICENSE
     This library is free software; you can redistribute it and/or modify it

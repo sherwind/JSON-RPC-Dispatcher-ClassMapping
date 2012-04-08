@@ -2,9 +2,9 @@ package JSON::RPC::Dispatcher::ClassMapping;
 
 use strict;
 use warnings;
-our $VERSION = '0.02';
+our $VERSION = '0.03';
 
-use JSON::RPC::Dispatcher;
+use JSON::RPC::Dispatcher 0.0505;
 use Moose;
 use namespace::autoclean;
 

@@ -13,7 +13,7 @@ WriteMakefile(
     PL_FILES            => {},
     PREREQ_PM => {
         'Test::More' => 0,
-        'JSON::RPC::Dispatcher' => 0, 
+        'JSON::RPC::Dispatcher' => '0.0505', 
         'Moose' => 0,
         'namespace::autoclean' => 0,
     },
